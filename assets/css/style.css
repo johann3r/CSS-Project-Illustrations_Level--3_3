@@ -16,10 +16,6 @@ html {
   --color-mustard: #fcaf45;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 @font-face {
   font-family: "Lato-Rg";
   src: url(./../fonts/Lato-Regular.ttf);
@@ -33,6 +29,10 @@ html {
 @font-face {
   font-family: "Merriweather-Rg";
   src: url(./../fonts/Merriweather-Regular.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -51,10 +51,6 @@ nav a {
 
 nav a:hover {
   color: #55acee;
-}
-
-main {
-  padding-top: 80px;
 }
 
 .Button-download {
@@ -102,19 +98,13 @@ main {
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: right;
+  margin-top: 80px;
 }
 
 article {
   display: block;
   padding: 80px 144px 104px 104px;
 }
-
-/* article img {
-  height: 400px;
-  text-align: right;
-  display: inline-block;
-  margin-left: 80px;
-} */
 
 h1 {
   font-family: "Meriweather-Bd";
@@ -124,7 +114,7 @@ h1 {
 
 h2 {
   font-family: "Meriweather-Bd";
-  font-size: 48px;
+  font-size: 3rem;
   padding-bottom: 16px;
 }
 
